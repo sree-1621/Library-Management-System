@@ -1,0 +1,82 @@
+.landingpage{
+    margin: 0;
+    background-image: url('../../public/images/bg2.png');
+    height:90vh;
+    /* margin-top: 15%; */
+    padding-top: 7%;
+}
+/* ================================================== */
+.main{
+    width: 500px;
+    height:280px;
+    text-align: center;
+    margin: auto;
+    /* padding-top: 25%; */
+    padding: 10%;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgb(78, 78, 78);
+}
+
+.main h1{
+    margin: 0;
+    padding: 0;
+    color: rgba(41, 70, 133, 0.836);
+    font-weight: lighter;
+    font-size: 250%;
+}
+/* ========================================================= */
+
+.selection {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.selection img{
+    padding: 20px;
+}
+/* ============================================== */
+.admin a{
+    text-decoration: none ;
+    color: rgb(133, 41, 41);
+    padding: 10px;
+    font-size: 130%;
+    /* font-weight: lighter; */
+}
+.admin button{
+    border: 1px solid rgb(141, 44, 27);
+    width: 150px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.admin button:hover{
+    border: 1px solid white;
+    background-color: rgba(199, 73, 51, 0.644);
+    width: 150px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* ========================================== */
+.user a{
+    text-decoration: none ;
+    color: rgb(13, 77, 17);
+    padding: 10px;
+    font-size: 130%;
+    /* font-weight: lighter; */
+}
+.user button{
+    border: 1px solid rgb(40, 143, 31);
+    width: 150px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.user button:hover{
+    border: 1px solid white;
+    background-color: rgba(40, 143, 31, 0.644);
+    width: 150px;
+    padding: 15px;
+    border-radius: 5px;
+}

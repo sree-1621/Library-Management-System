@@ -1,0 +1,97 @@
+.adminlogin{
+    margin: 0;
+    /* padding-top: 13%; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.adminmain{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.adminCard{
+    background-color: rgb(193, 134, 228);
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    padding: 70px 20px;
+    box-shadow: 10px 10px 15px rgba(42, 41, 41, 0.47);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.adminCard h1{
+    color: rgb(94, 22, 161);
+    margin: 0px 30px 40px 30px;
+    text-shadow: 5px 5px 10px rgba(113, 98, 113, 0.685);
+    font-weight: lighter;
+}
+.form{
+    padding-left: 20px;
+}
+
+.mail{
+    /* padding-left: 20px; */
+    padding-bottom: 10px;
+}
+.mail label{
+    padding: 10px;
+    color: rgb(116, 19, 131);
+    /* margin-bottom: 10px; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.mail input{
+    padding: 10px 50px 10px 4px;
+    /* border-radius: 5px;
+    border: 1px solid white; */
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(193, 134, 228);
+    margin: 10px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pass{
+    /* padding-left: 20px; */
+    padding-bottom: 20px;
+}
+.pass label{
+    padding: 10px;
+    color: rgb(116, 19, 131);
+}
+.pass input{
+    padding: 10px 50px 10px 4px;
+    /* border-radius: 5px;
+    border: 1px solid white; */
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(193, 134, 228);
+    margin: 10px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form button{
+    padding: 7px 95px;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    /* color: white; */
+    /* outline: none; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+#bt1{
+    font-weight: lighter;
+    color: rgb(84, 24, 140);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bt1:hover{
+    border: 1px solid blueviolet;
+    font-weight: lighter;
+    background-color: rgba(99, 41, 154, 0.73);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

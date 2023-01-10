@@ -1,0 +1,26 @@
+.adminNavbar {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(139, 111, 165, 0.716);
+}
+
+.links li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.logo h1 {
+    margin: 20px 5px;
+    color: rgb(47, 13, 78);
+}
+
+.links a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(47, 13, 78);
+}

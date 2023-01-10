@@ -1,0 +1,32 @@
+/* do booklist css as in the amazon books website */
+
+.booklist{
+    margin: 0;
+    /* text-align: center; */
+    background-color: rgba(56, 17, 78, 0.485);
+}
+
+.booklist h1{
+    margin: 0;
+    padding: 30px;
+}
+
+.book_card{
+    width: 450px;
+    height: 350px;
+    border: 1px solid rgba(183, 97, 240, 0.253);
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(82, 45, 106, 0.253);
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 15px;
+}
+
+#btn1{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5px;
+    border: 1px solid purple;
+}

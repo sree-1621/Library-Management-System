@@ -1,0 +1,9 @@
+Nested router
+
+for one webpage you can have only one Browser router
+giving routes inside another component and importing that component to app.js
+
+
+Route parameters
+the value of that keep on changing in a website will be given as route parameter
+Route path="/book-list/:id"   => here ' id ' is the route parameter

@@ -1,0 +1,11 @@
+.userlist{
+    margin: 0;
+}
+
+.user_section{
+    display: block;
+}
+
+.user_card{
+    border: 1px solid black;
+}

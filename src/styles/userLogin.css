@@ -1,0 +1,89 @@
+.userlogin{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.userMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.userCard{
+    background-color: rgb(107, 176, 154);
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    padding: 70px 10px;
+    box-shadow: 10px 10px 15px rgba(42, 41, 41, 0.47);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.userCard h1{
+    color: rgb(16, 71, 54);
+    margin: 0px 30px 40px 30px;
+    text-shadow: 5px 5px 10px rgba(113, 98, 113, 0.685);
+    font-weight: lighter;
+}
+
+.formuser{
+    padding-left: 20px;
+}
+
+.mailuser{
+    padding-bottom: 15px;
+}
+
+.mailuser label{
+    padding: 10px;
+}
+
+.mailuser input{
+    padding: 10px 50px 10px 4px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(107, 176, 154);
+    margin: 10px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.passuser{
+    padding-bottom: 15px;
+}
+
+.passuser label{
+    padding: 10px;
+}
+
+.passuser input{
+    padding: 10px 50px 10px 4px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(107, 176, 154);
+    margin: 10px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formuser button{
+    padding: 7px 95px;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#bt2{
+    font-weight: lighter;
+    color: rgb(22, 125, 125);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bt2:hover{
+    font-weight: lighter;
+    border: 1px solid rgb(39, 137, 116);
+    background-color: rgba(40, 143, 134, 0.73);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
