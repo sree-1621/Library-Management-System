@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,useLocation } from "react-router-dom";
 // import '../styles/bookList.css'
 import '../styles/booklistAmazon.css'
 // import ReadBook from "./readBook";
@@ -20,6 +20,9 @@ const BookList = () => {
 
     let navigate = useNavigate()
 
+    //to fetch the route value
+    let location = useLocation()
+
     // let HandleDelete = (id, title) => {
     //     setBooks(books.filter(x => x.id != id))
     //     alert(`${title} will be deleted`)
@@ -34,7 +37,13 @@ const BookList = () => {
 
     let read = (id) => {
         // let data=fetch(`http://localhost:5000/books/${id}`)
-        navigate(`/admin/book-list/${id}`)
+        if(location.pathname == '/admin/book-list')
+        {
+            navigate(`/admin/book-list/${id}`)
+        }
+        else{
+            navigate(`/user/book-list/${id}`)
+        }
     }
 
     return (
@@ -55,7 +64,7 @@ const BookList = () => {
                                     <h6>Page Count : {data.pageCount}</h6>
                                     <div className="btn1">
                                         <button onClick={() => read(data.id)}>Read More</button>
-                                        <button onClick={() => handleDelete(data.id, data.title)}>Delete</button>
+                                        {location.pathname == '/admin/book-list' && <button onClick={() => handleDelete(data.id, data.title)}>Delete</button>}
                                     </div>
                                 </div>
                             </div>

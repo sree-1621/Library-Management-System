@@ -1,5 +1,6 @@
 .userlist{
     margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
 .user_section{
@@ -7,5 +8,15 @@
 }
 
 .user_card{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 10px 10px 25px gray;
+    width: 200px;
+    margin: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.userlist h1{
+    margin: 0;
 }

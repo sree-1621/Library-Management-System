@@ -22,9 +22,10 @@ const UserList = () => {
                 {
                     user.map(u => (
                         <div className="user_card">
-                            <h2>Name : {u.name}</h2>
+                            <h2>{u.name}</h2>
                             <h4>Age : {u.age}</h4>
-                            <h5>Email : {u.email} / Phone Number : {u.phoneNumber}</h5>
+                            <h5>Email : {u.email}</h5>
+                            <h5>Phone Number : {u.phoneNumber}</h5>
                         </div>
                     ))
                 }

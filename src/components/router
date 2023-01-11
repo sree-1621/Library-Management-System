@@ -7,3 +7,9 @@ giving routes inside another component and importing that component to app.js
 Route parameters
 the value of that keep on changing in a website will be given as route parameter
 Route path="/book-list/:id"   => here ' id ' is the route parameter
+
+
+useParams can be only used just to fech the changing value in the url. cannot use for the non changing url 
+ie., it can be only used to fetch single value
+
+useLocation : used to access the link address
